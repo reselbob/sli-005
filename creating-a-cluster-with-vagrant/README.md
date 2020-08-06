@@ -83,7 +83,7 @@ Remember that directory location, you're going to need it
 `cp /directory/of/.kube/config /directory/of/.kube/config.bak`
 
 Now, we'll create a four node Kubernetes cluster, with 1 Master node and 3 Worker nodes. The instructions that
-Vagrant follows to create the VMs are in the file, `Vagrantfile`, found [here](Vargrantfile).
+Vagrant follows to create the VMs are in the file, `Vagrantfile`, found [here](./Vargrantfile).
 
 We're going to call the command `vagrant up`. This command looks for the `Vagrantfile` in the current directory from
 where the command is being executed. So, make sure that `Vagrantfile` is in your current directory along with the other
